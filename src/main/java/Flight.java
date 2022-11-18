@@ -100,4 +100,8 @@ public class Flight {
     public int getCabinCrewListLength() {
         return cabinCrew.size();
     }
+
+    public ArrayList<Passenger> getPassengers() {
+        return passengers;
+    }
 }
